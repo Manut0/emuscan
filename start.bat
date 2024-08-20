@@ -1,12 +1,8 @@
-sc create intdriver binPath="%~dp0\iqww64e.sys" type=kernel
-sc start intdriver
+sc create intdriveremu binPath="%~dp0\iqww64e.sys" type=kernel
+sc start intdriveremu 
 dma-nk.exe
 pause
-sc stop intdriver
-sc delete intdriver
-
-
-
-
+sc stop intdriveremu 
+sc delete intdriveremu 
 
 
