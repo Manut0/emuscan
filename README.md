@@ -22,7 +22,7 @@ After the test is completed, ensure that the driver is properly uninstalled.
 3. Run `backup.bat`.
 ![[./images/backup.png]](./images/backup.png)
 4. If the driver loads successfully, it will display as follows.
-![[./images/start.png]](./images/sucess.png)
+![[./images/start.png]](./images/success.png)
 5. Click the Check button and wait for the detection to complete (the interface may temporarily freeze during the detection).
 
 # FAQ
