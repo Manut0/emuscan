@@ -1,3 +1,5 @@
+@[toc]
+
 This test is based on ekknod's [drvscan](https://github.com/ekknod/drvscan), with added emulation detection for common devices. Thanks to ekknod for his contribution.Thanks to my good friend Hchai for providing the software interface and ideas.
 # How to use
 1. Run PowerShell as an administrator.
