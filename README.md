@@ -3,7 +3,10 @@ This test is based on ekknod's [drvscan](https://github.com/ekknod/drvscan), wit
 1. Run PowerShell as an administrator.
 2. cd Release folder
 3. Run `start.bat`.
-4. Click the Check button and wait for the detection to complete (the interface may temporarily freeze during the detection).
+![[./images/start.png]](./images/start.png)
+4. If the driver loads successfully, it will display as follows.
+![[./images/success.png]](./images/success.png)
+5. Click the Check button and wait for the detection to complete (the interface may temporarily freeze during the detection).
 The screenshot is as follows:
 ![[./images/capture.png]](./images/capture.png)
 
@@ -13,6 +16,14 @@ If the test fails, it will list the problematic devices as follows:
 ![[./images/fail.png]](./images/fail.png)
 After the test is completed, ensure that the driver is properly uninstalled.
 ![[./images/exit.png]](./images/exit.png)
+# Backup
+1. Run PowerShell as an administrator.
+2. cd Release folder
+3. Run `backup.bat`.
+![[./images/backup.png]](./images/backup.png)
+4. If the driver loads successfully, it will display as follows.
+![[./images/start.png]](./images/sucess.png)
+5. Click the Check button and wait for the detection to complete (the interface may temporarily freeze during the detection).
 
 # FAQ
 #### Q: The driver cannot be started
@@ -60,9 +71,20 @@ iThaClan(Discord Channel Link:https://discord.gg/ithaclan)
 
 # 使用方法
 1. 以管理员身份运行 PowerShell。
-2. 进入 Release 文件夹 (`cd Release`)。
+2. 进入 emuscan 文件夹。
 3. 运行 `start.bat`。
-4. 点击“Check”按钮，等待检测完成（检测过程中界面可能会暂时卡住）。
+![[./images/start.png]](./images/start.png)
+4. 如果驱动加载成功，显示如下：
+![[./images/success.png]](./images/success.png)
+5. 点击“Check”按钮，等待检测完成（检测过程中界面可能会暂时卡住）。
+# 备用
+1. 以管理员身份运行 PowerShell。  
+2. 进入 emuscan 文件夹。  
+3. 运行 `backup.bat`。  
+![[./images/backup.png]](./images/backup.png)  
+4. 如果驱动加载成功，将显示如下：  
+![[./images/success.png]](./images/success.png)  
+5. 点击“Check”按钮，等待检测完成（检测过程中界面可能会暂时卡住）。
 
 截图如下：
 ![[./images/capture.png]](./images/capture.png)
