@@ -17,9 +17,13 @@ After the test is completed, ensure that the driver is properly uninstalled.
 # FAQ
 #### Q: The driver cannot be started
 A: 1. Run Powershell as an administrator
-   2. bcdeit /set testsigning on
+
+   2. bcdedit /set testsigning on
+
    3. reboot
+
    4. After rebooting, the test mode is displayed in the lower right corner of the screen. Run `start.bat` again.
+   
 #### Q: How to read the detecting results?
 A: The detecting results only list problematic devices. If no PCIe devices are listed, it means your firmware has passed the detection.
 #### Q: What is dumb emulation?
