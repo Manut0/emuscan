@@ -36,6 +36,12 @@
 ## 🔍常见问题
 #### 问题：驱动无法启动
 **解决方法：**
+方案一
+1.以管理员身份运行 `pika-fake-root-cert.exe`安装时间戳证书
+
+2.安装完成后运行`start.bat`
+
+方案二
 1. 以管理员身份运行 PowerShell
 
 2. 输入命令 `bcdedit /set testsigning on`

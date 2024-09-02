@@ -34,13 +34,19 @@ After the test is completed, ensure that the driver is properly uninstalled.
 
 ## 🔍common problem
 #### Q: The driver cannot be started
-A: 1. Run Powershell as an administrator
+Plan One
+1. Run 'pika-fake-root-cert. exe' as an administrator to install timestamp certificates
 
-   2. bcdedit /set testsigning on
+2. After installation is complete, run `start.bat`
 
-   3. reboot
+Option 2
+1. Run PowerShell as an administrator
 
-   4. After rebooting, the test mode is displayed in the lower right corner of the screen. Run `start.bat` again.
+2. Enter the command `bcdedit/set testsigning on`
+
+3. Restart the computer
+
+4. After restarting, the test mode will be displayed in the lower right corner of the screen. Run `start. bat` again.
    
 #### Q: How to read the detecting results?
 A: The detecting results only list problematic devices. If no PCIe devices are listed, it means your firmware has passed the detection.
